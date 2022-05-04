@@ -25,6 +25,10 @@ public class Movement {
 	@Enumerated(EnumType.STRING)
 	private MovementType type;
 	
+	@Column(name = "id_account")
+	private Integer idAccount;
+	
+	
 	public Integer getId() {
 		return id;
 	}
@@ -55,7 +59,12 @@ public class Movement {
 	public void setType(MovementType type) {
 		this.type = type;
 	}
-	
+	public Integer getIdAccount() {
+		return idAccount;
+	}
+	public void setIdAccount(Integer idAccount) {
+		this.idAccount = idAccount;
+	}
 	
 
 }
