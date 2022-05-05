@@ -1,5 +1,7 @@
 # Getting Started
 
+## Deployed -> https://mario-dio-bankline-api.herokuapp.com/swagger-ui/index.html
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
