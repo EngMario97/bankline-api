@@ -23,7 +23,7 @@ public class MovementService {
 	public void save(NewMovement newMovement) {
 		Movement movement = new Movement();
 		
-		Double value = newMovement.getType() == MovementType.INCOME ? newMovement.getValue() : newMovement.getValue() * -1;
+		Double value = newMovement.getType() == MovementType.RECEITA ? newMovement.getValue() : newMovement.getValue() * -1;
 		
 		movement.setDatetime(LocalDateTime.now());
 		movement.setDescription(newMovement.getDescription());
